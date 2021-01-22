@@ -1,2 +1,5 @@
 # Data directory
 /Data
+
+#Data after first stage of preprocessing
+mask_data.csv
