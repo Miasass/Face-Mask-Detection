@@ -8,12 +8,12 @@ Działanie aplikacji zostało zaprezentowane na [filmie](https://youtu.be/jegcj5
 
 ### Jak załączyć aplikacje
 Do uruchomienia aplikacji niezbędny jest Python 3.8 oraz biblioteki (cv2, numpy, keyboard, imutils, tensorflow).
-Aby aplikacja zadziałała należy pobrać pliki znajdujące się [tutaj](https://drive.google.com/drive/folders/19z5TKETRr1-QXBMvhOhjVLsd-KHhRKDf?usp=sharing) i umieścić je w tym samym folderze, w którym znajduje się plik Application.ipynb.
-Z pliku Application.ipynb należy uruchomić trzecią komórkę (dwie pierwsze można pominąć w przypadku, w którym posiada się wszystkie potrzebne biblioteki).
+Aby aplikacja zadziałała należy pobrać pliki znajdujące się [tutaj](https://drive.google.com/drive/folders/19z5TKETRr1-QXBMvhOhjVLsd-KHhRKDf?usp=sharing) i umieścić je w tym samym folderze, w którym znajduje się plik Application.ipynb lub Application.py.
+Z pliku Application.ipynb należy uruchomić trzecią komórkę (dwie pierwsze można pominąć w przypadku, w którym posiada się wszystkie potrzebne biblioteki) lub można uruchomić plik Application.py.
 
 
 ### Opis projektu
-Celem projektu było stworzenie aplikacji wykrywającej jeden z trzech stanów (maska założona, maska nie założona oraz maska źle założona) w czasie rzeczywistym. Niestety z powodu zbyt małej liczby zdjęć prezentujących źle założoną maseczk, model nie wykrywa tego stanu.
+Celem projektu było stworzenie aplikacji wykrywającej jeden z trzech stanów (maska założona, maska nie założona oraz maska źle założona) w czasie rzeczywistym. Niestety z powodu zbyt małej liczby zdjęć prezentujących źle założoną maseczk, model nie wykrywa tego stanu. Stworzony został w dwóch wariantach: .ipynb oraz .py. Dalszy opis dotyczył będzie wersji wykonanej w Jupyter Notebooku.
 
 Projekt składa się z trzech plików .ipynb
 #### Data_Preprocessing.ipynb
